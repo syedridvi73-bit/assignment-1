@@ -1,0 +1,327 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    list-style:none;
+}
+
+header{
+    width:100%;
+    background:white;
+    border-bottom:1px solid #eee;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:80px;
+}
+
+
+nav ul {
+    display: flex;
+    gap: 35px;
+    
+}
+
+nav ul li a:hover{
+    color:#2563eb;
+}
+
+.register-btn{
+    background:#2563eb;
+    color:white;
+    padding:12px 24px;
+   text-align:center;
+    border: 15px;
+    font-weight:600;
+}
+
+
+/* Hero Section */
+
+.hero {
+    align-items: center;
+    justify-content: center;
+    position: center;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    display: block;
+}
+
+.hero-text {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    color: white;
+}
+
+.hero-text h1 {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.hero-text p {
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+.register-btn-down {
+     background:#2563eb;
+    color:white;
+    padding:12px 24px;
+    border-radius:20px;
+    font-weight:bold;
+    text-align: center;
+}
+
+
+/* Meet The Speakers Section */
+
+.meet {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.speakers {
+
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap: 20px;
+    align-items: center;
+    
+    
+}
+.text {
+    font-size: smaller;
+    color: rgb(5, 178, 247);
+}
+
+.texxt {
+    color:gray;
+}
+
+/* Pricing Section */
+
+.pricing{
+
+    width:100%;
+    padding:70px 8%;
+
+}
+
+.heading{
+
+    text-align:center;
+    margin-bottom:60px;
+
+}
+
+.heading h1{
+
+    font-size:60px;
+    font-weight:800;
+    margin-bottom:15px;
+
+}
+
+.heading p{
+
+    color:#6b7280;
+    font-size:20px;
+
+}
+
+/* Cards */
+
+.pricing-container{
+
+    display:flex;
+    justify-content:center;
+    gap:28px;
+    flex-wrap:wrap;
+
+}
+
+.card{
+
+    width:370px;
+    padding:34px;
+    border:1px solid #e5e7eb;
+    border-radius:16px;
+    background:#fff;
+    display:flex;
+    flex-direction:column;
+
+}
+
+.active{
+
+    background:#111f2e;
+    color:#fff;
+    border:none;
+
+}
+
+.plan{
+
+    color:#7c7c7c;
+    font-size:15px;
+    font-weight:700;
+    letter-spacing:1px;
+    margin-bottom:15px;
+
+}
+
+.blue{
+
+    color:#7bb6ff;
+
+}
+
+.card h2{
+
+    font-size:58px;
+    font-weight:800;
+    margin-bottom:8px;
+
+}
+
+.price-text{
+
+    color:#808080;
+    margin-bottom:25px;
+
+}
+
+.active .price-text{
+
+    color:#b7bcc4;
+
+}
+
+.card hr{
+
+    border:none;
+    height:1px;
+    background:#e5e7eb;
+    margin-bottom:28px;
+
+}
+
+.active hr{
+
+    background:#324152;
+
+}
+
+ul{
+
+    list-style:none;
+
+
+}
+
+ul li{
+
+    margin-bottom:20px;
+    font-size:18px;
+    color:#374151;
+    position:relative;
+    padding-left:16px;
+
+}
+
+ul li::before{
+
+    
+    color:#2563eb;
+    position:absolute;
+    left:0;
+
+}
+
+.active ul li{
+
+    color:#d5d9df;
+
+}
+
+/* Buttons */
+
+button{
+
+    margin-top:30px;
+    height:52px;
+    border-radius:10px;
+    font-size:18px;
+    font-weight:600;
+    cursor:pointer;
+   
+
+}
+
+.outline-btn{
+
+    background:white;
+    border:2px solid #2563eb;
+    color:#2563eb;
+
+}
+
+.outline-btn:hover{
+
+    background:#2563eb;
+    color:white;
+
+}
+
+.filled-btn{
+
+    background:#3564dd;
+    color:white;
+    border:none;
+
+}
+
+.filled-btn:hover{
+
+    background:#2852bf;
+
+}
+
+.team-btn{
+
+    background:white;
+    border:2px solid #1f2937;
+    color:#111827;
+
+}
+
+.team-btn:hover{
+
+    background:#111827;
+    color:white;
+
+}
+
+
+
